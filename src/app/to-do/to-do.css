@@ -1,0 +1,23 @@
+input {
+    min-width: 20em;
+    min-height: 2em;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 3em;
+}
+
+.delete {
+    visibility: hidden;
+    color: #ff0000;
+}
+
+li:hover .delete {
+    visibility: visible;
+}
